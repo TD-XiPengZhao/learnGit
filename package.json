@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prepare": "husky install",
+    "cspell": "cspell '**/*.{ts,tsx,js,jsx}' --no-progress"
+  },
+  "prepare": {},
+  "dependencies": {
+    "next": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "cspell": "^5.18.5",
+    "husky": "^7.0.4"
+  }
+}
